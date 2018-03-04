@@ -1,7 +1,7 @@
  #include<stdio.h>
  int main()
  {
- 	int c=0,i,n1,n2;
+ 	int count=0,i,n1,n2;
  	char s1[20],s2[20];
  	printf("input\noutput : ");
  	scanf("%s%s",s1,s2);
@@ -13,11 +13,11 @@
  	{
  		if(s1[i]!=s2[i])
  		{
- 		c++;
+ 		count++;
  		break;
  		}
  	}
- 	if(c==0)
+ 	if(count==0)
  	printf("yes");
  	else
  	printf("no");
